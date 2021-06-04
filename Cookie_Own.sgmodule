@@ -15,18 +15,18 @@ hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, ifac*.iqiyi.c
 京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 威锋ck = type=http-request,pattern=^http:\/\/49.234.36.200:9091\/v1\/auth\/signin,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js,requires-body=true
 吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
-什么值得买ck = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js,type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?
+什么值得买ck = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
 贴吧Cookie = type=http-request,pattern=https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
-美团cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/
-wps.cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js,type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/ldocer_check_in\/api\/act_list
-哈啰出行ck = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,requires-body=true,type=http-request,pattern=^https:\/\/gameapi\.hellobike\.com\/api
+美团cookie = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=true
+wps.cookie = type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/ldocer_check_in\/api\/act_list,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+哈啰出行ck = type=http-request,pattern=^https:\/\/gameapi\.hellobike\.com\/api,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body=true
 万达电影ck = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
-饿了么ck = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js,type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$
-携程旅行cookie = script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip_cookie.js,type=http-request,pattern=https:\/\/m\.ctrip\.com\/restapi\/soa2\/14946\/json\/userBaseInfo
+饿了么ck = type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
+携程旅行cookie = type=http-request,pattern=https:\/\/m\.ctrip\.com\/restapi\/soa2\/14946\/json\/userBaseInfo,script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip_cookie.js
 滴滴出行APPCk = type=http-request,pattern=^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
-顺丰速运cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,type=http-request,pattern=^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index
-顺丰速运cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,type=http-request,pattern=^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect
-海底捞ck = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,type=http-request,pattern=^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$
-快手极速版ck = script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js,type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview
+顺丰速运cookie = type=http-request,pattern=^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+顺丰速运cookie = type=http-request,pattern=^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+海底捞ck = type=http-request,pattern=^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
+快手极速版ck = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js
 电信营业厅ck = type=http-request pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, requires-body=true
 网易云音乐ck = type=http-request pattern=^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, requires-body=true
