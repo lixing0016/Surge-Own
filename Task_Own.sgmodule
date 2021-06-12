@@ -20,7 +20,7 @@ WPS = type=cron,cronexp="10 2 7 * * *",script-path=https://raw.githubusercontent
 饿了么 = type=cron,cronexp="10 3 7 * * *",script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
 饿了么-打卡领红包= type=cron,cronexp="30 3 7 * * *",script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
 携程旅行 = type=cron,cronexp="10 4 7 * * *",script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip.js,script-update-interval=0
-// 滴滴出行 = type=cron,cronexp="10 0 1,20,21 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
+# 滴滴出行 = type=cron,cronexp="10 0 1,20,21 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
 顺丰速运 = type=cron,cronexp="30 4 7 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0
 海底捞 = type=cron,cronexp="50 4 7 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,script-update-interval=0
 快手手极速版 = type=cron,cronexp="10 5 7 * * *",script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js,script-update-interval=0
