@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, kd.youth.cn, ios.baertt.com, 49.234.36.200:9091, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, i.meituan.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, e.189.cn, mkt.21cn.com,
+hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, kd.youth.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, i.meituan.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, e.189.cn, mkt.21cn.com,
 
 [Script]
 腾讯视频ck = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
