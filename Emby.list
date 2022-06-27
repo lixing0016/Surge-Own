@@ -89,3 +89,15 @@ DOMAIN,jmsooo.com
 DOMAIN,cf.jmsooo.com
 DOMAIN,hk.jmsooo.com
 DOMAIN,sg.jmsooo.com
+
+# > 流媒体Emby-Nako服务器
+DOMAIN,nakonako.net
+DOMAIN,nakoemby.com
+DOMAIN,20.205.38.244
+
+# > 流媒体Emby-404Found服务器
+DOMAIN,404.sb
+
+# > 流媒体Emby-仲夏服务器
+DOMAIN,cf.mseic.com
+DOMAIN,ha.mseic.com
