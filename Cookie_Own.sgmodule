@@ -8,7 +8,7 @@ hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com,
 [Script]
 腾讯视频ck = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 喜马拉雅ck = type=http-request, pattern=^https?:\/\/.*\/mobile\-user\/homePage\/.*,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
-爱奇艺ck = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/user\/info\.action,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+爱奇艺ck = type=http-request,pattern= ^https:\/\/passport\.iqiyi\.com\/apis\/user\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 京喜token = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
