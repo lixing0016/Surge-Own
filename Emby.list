@@ -103,3 +103,6 @@ DOMAIN,404.sb
 # > 流媒体Emby-仲夏服务器
 DOMAIN,cf.mseic.com
 DOMAIN,ha.mseic.com
+
+# > 流媒体Emby-垃圾影音
+DOMAIN,xyt.emby.ml
