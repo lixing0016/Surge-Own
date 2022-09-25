@@ -110,3 +110,7 @@ DOMAIN,xyt.emby.ml
 
 # > 流媒体Emby-佛系影音
 DOMAIN,4545.cf
+
+# > 流媒体Emby-BlueSea服务器
+DOMAIN,emby-pub1.blueseacdn.com
+DOMAIN,www.blueseamusics.com
