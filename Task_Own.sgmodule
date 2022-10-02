@@ -1,6 +1,5 @@
 #!name=Cron Task_Own
 #!desc=签到
-#!system=ios
 
 [Script]
 # 签到
