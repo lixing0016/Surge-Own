@@ -2,7 +2,7 @@
 #!desc=获取成功后禁用
 
 [MITM]
-hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, kd.youth.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, i.meituan.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, e.189.cn, mkt.21cn.com,
+hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, kd.youth.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, i.meituan.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, e.189.cn, mkt.21cn.com, mall.meituan.com,
 
 [Script]
 腾讯视频ck = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
@@ -24,3 +24,4 @@ wps.cookie = type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/ldocer_check_
 快手极速版ck = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js
 网易云音乐ck = type=http-request,pattern=^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, requires-body=true
 航旅纵横ck = type=http-request,pattern=^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
+美团买菜CK = type=http-request, pattern=^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/queryTaskListInfoV.\?,script-path=https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js
