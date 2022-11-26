@@ -114,7 +114,7 @@ DOMAIN,4545.cf
 DOMAIN,1.4545.cf
 
 # > 流媒体Emby-BlueSea服务器
-DOMAIN,emby-pub1.blueseacdn.com
+# DOMAIN,emby-pub1.blueseacdn.com
 DOMAIN,www.blueseamusics.com
 
 # > 流媒体Emby-终点站服务器
