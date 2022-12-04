@@ -20,6 +20,7 @@ DOMAIN,embyaz.misakaf.xyz
 DOMAIN,cf.misakaf.org
 DOMAIN,4837.misakaf.org
 DOMAIN,porn.misakaf.org
+DOMAIN,embyvip.misakaf.org
 
 # > 流媒体emby-mdss服务器
 DOMAIN,emby.mdss.cloud
@@ -141,3 +142,6 @@ DOMAIN,embyx.one
 # > 流媒体酒吧Emby公益服
 DOMAIN,emby.o9o.nl
 DOMAIN,ddnsjp.titams.xyz
+
+# > 流媒体Nebula Emby公益服
+DOMAIN,direct.nebula-emby.com
