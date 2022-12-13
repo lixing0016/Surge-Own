@@ -138,10 +138,20 @@ DOMAIN,ha.emby.kim
 
 # > 流媒体EmbyX公益服
 DOMAIN,embyx.one
+DOMAIN,de.embyx.one
 
 # > 流媒体酒吧Emby公益服
 DOMAIN,emby.o9o.nl
 DOMAIN,ddnsjp.titams.xyz
+DOMAIN,194.9.62.134
+DOMAIN,103.135.249.87
+DOMAIN,37.128.247.203
+DOMAIN,114.80.36.60
+DOMAIN,14.215.163.57
+DOMAIN,14.215.163.106
+DOMAIN,49.7.208.101
+DOMAIN,71.132.3.70
+DOMAIN,111.22.142.145
 
 # > 流媒体Nebula Emby公益服
 DOMAIN,direct.nebula-emby.com
