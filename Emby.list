@@ -157,3 +157,6 @@ DOMAIN,111.22.142.145
 
 # > 流媒体Nebula Emby公益服
 DOMAIN,direct.nebula-emby.com
+
+# > 流媒体Orange Emby公益服
+DOMAIN,embytv.cf
