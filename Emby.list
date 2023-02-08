@@ -117,6 +117,7 @@ DOMAIN,1.4545.cf
 # > 流媒体Emby-BlueSea服务器
 # DOMAIN,emby-pub1.blueseacdn.com
 DOMAIN,www.blueseamusics.com
+DOMAIN,bsem.ddns.me
 
 # > 流媒体Emby-终点站服务器
 DOMAIN,pub1.emby.wtf
