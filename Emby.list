@@ -164,6 +164,7 @@ DOMAIN,direct.nebula-emby.com
 
 # > 流媒体Orange Emby公益服
 DOMAIN,embytv.cf
+DOMAIN,cf.embytv.cf
 
 # > 流媒体NMEmby公益服
 DOMAIN,film.nmg.llc
