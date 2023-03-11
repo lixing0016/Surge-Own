@@ -2,7 +2,7 @@
 #!desc=获取成功后禁用
 
 [MITM]
-hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, wq.jd.com, m.jingxi.com, api.weibo.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, mkt.21cn.com, mall.meituan.com, *.meituan.*, *.bilibili.com, auth.aliyundrive.com, api.icitybox.cn, sytgate.jslife.com.cn 
+hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, wq.jd.com, m.jingxi.com, api.weibo.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, mkt.21cn.com, mall.meituan.com, *.meituan.*, *.bilibili.com, auth.aliyundrive.com, api.icitybox.cn, sytgate.jslife.com.cn, rewards.bing.com 
 
 [Script]
 腾讯视频ck = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
@@ -30,3 +30,4 @@ Bilibili = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.? s
 阿里云盘签到cookie = requires-body=1,type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 citybox = type=http-request,pattern=^https:\/\/api\.icitybox\.cn\/index.php\/api\/user\/get_user_info,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/citybox/citybox.cookie.js,debug=true
 获取捷停车userId = type=http-request, pattern=^https:\/\/sytgate\.jslife\.com\.cn\/core-gateway\/order\/carno\/pay\/info, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js
+Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js
