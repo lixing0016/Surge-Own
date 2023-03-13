@@ -134,6 +134,7 @@ DOMAIN,pro.misty.ltd
 
 # > 流媒体Emby-Polo服务器
 DOMAIN,cu.poloemby.xyz
+DOMAIN,hk.poloemby.xyz
 
 # > 流媒体Emby-猫熊影业
 DOMAIN,emby.kim
@@ -165,6 +166,7 @@ DOMAIN,direct.nebula-emby.com
 # > 流媒体Orange Emby公益服
 DOMAIN,embytv.cf
 DOMAIN,cf.embytv.cf
+DOMAIN,cdn.embytv.cf
 
 # > 流媒体NMEmby公益服
 DOMAIN,film.nmg.llc
@@ -172,3 +174,5 @@ DOMAIN,film.nmg.llc
 # > Jellyfin公益服
 DOMAIN,s2.amazing910.top
 
+# > Mulgore公益服
+DOMAIN,202.61.255.248
