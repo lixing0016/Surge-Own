@@ -21,6 +21,7 @@ DOMAIN,cf.misakaf.org
 DOMAIN,4837.misakaf.org
 DOMAIN,porn.misakaf.org
 DOMAIN,embyvip.misakaf.org
+DOMAIN,cdn.misakaf.org
 
 # > 流媒体emby-mdss服务器
 DOMAIN,emby.mdss.cloud
@@ -176,6 +177,7 @@ DOMAIN,s2.amazing910.top
 
 # > Mulgore公益服
 DOMAIN,202.61.255.248
+DOMAIN,one.mulgore.net
 
 # > 纸片人小站EmbyPlus公益服
 DOMAIN,embyplus.org
