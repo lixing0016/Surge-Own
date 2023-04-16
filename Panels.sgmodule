@@ -3,6 +3,8 @@
 [Panel]
 # GPT
 CFGPT = script-name=CFGPT,update-interval=-1
+# NetSpeed
+NetSpeed = script-name=NetSpeed,update-interval=-1
 # 节假日查询
 Timecard = script-name=Timecard,update-interval=3600
 # 机场信息
@@ -38,6 +40,8 @@ stream-all = type=generic, timeout=15, script-path= https://raw.githubuserconten
 Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/lixing0016/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=https%3A%2F%2Fweifengsd.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De5d60c77b290546a173a424a9139eed5&reset_day=6&title=V4speed&expire=2022-10-06&icon=airplane.circle&color=#007aff
 # GPT
 CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2.js,argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
+# NetSpeed
+NetSpeed = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.js,argument=title=NetSpeed&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=3
 
 [Host]
 ip-api.com = 208.95.112.1
