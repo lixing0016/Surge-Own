@@ -136,6 +136,8 @@ DOMAIN,pro.misty.ltd
 # > 流媒体Emby-Polo服务器
 DOMAIN,cu.poloemby.xyz
 DOMAIN,hk.poloemby.xyz
+DOMAIN,df.poloemby.xyz
+DOMAIN,cf.poloemby.xyz
 
 # > 流媒体Emby-猫熊影业
 DOMAIN,emby.kim
