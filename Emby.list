@@ -29,8 +29,8 @@ DOMAIN,cf.mseic.com
 DOMAIN,ha.mseic.com
 
 # > 流媒体Emby-垃圾影音
-DOMAIN,xyt.emby.ml
 DOMAIN,cf.emby.ml
+DOMAIN,cfca.emby.ml
 
 # > 流媒体Emby-佛系影音
 DOMAIN,4545.cf
