@@ -4,9 +4,6 @@ DOMAIN,emby.flowercloud.yt
 # > 流媒体emby-MisakaF服务器
 DOMAIN,emby.misakaf.org
 
-# > 流媒体emby-mdss服务器
-DOMAIN,emby.mdss.cloud
-
 # > 流媒体普拉斯影业服务器
 DOMAIN,emby.plusmedia.site
 DOMAIN,emby-sg.plusmedia.site
@@ -16,17 +13,8 @@ DOMAIN,jellyfin.xeton.dev
 DOMAIN,movie.xeton.dev
 DOMAIN,servers.xeton.dev
 
-# > 流媒体Emby-Nako服务器
-DOMAIN,nakonako.net
-DOMAIN,nakoemby.com
-DOMAIN,20.205.38.244
-
 # > 流媒体Emby-404Found服务器
 DOMAIN,404.sb
-
-# > 流媒体Emby-仲夏服务器
-DOMAIN,cf.mseic.com
-DOMAIN,ha.mseic.com
 
 # > 流媒体Emby-垃圾影音
 DOMAIN,cf.emby.ml
@@ -41,11 +29,6 @@ DOMAIN,4837.emby.ml
 DOMAIN,4545.cf
 DOMAIN,1.4545.cf
 
-# > 流媒体Emby-BlueSea服务器
-# DOMAIN,emby-pub1.blueseacdn.com
-DOMAIN,www.blueseamusics.com
-DOMAIN,bsem.ddns.me
-
 # > 流媒体Emby-终点站服务器
 DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
@@ -58,12 +41,6 @@ DOMAIN,hk.aaa.ax
 DOMAIN,plus.aaa.ax
 DOMAIN,misty.ltd
 DOMAIN,pro.misty.ltd
-
-# > 流媒体Emby-Polo服务器
-DOMAIN,cu.poloemby.xyz
-DOMAIN,hk.poloemby.xyz
-DOMAIN,df.poloemby.xyz
-DOMAIN,cf.poloemby.xyz
 
 # > 流媒体Nebula Emby公益服
 DOMAIN,direct.nebula-emby.com
@@ -81,6 +58,8 @@ DOMAIN,embyplus.org
 
 # > 剧狗Emby
 DOMAIN,ju.dog
+DOMAIN,1.mgl.gay
+DOMAIN,2.mgl.gay
 
 # > AcEmby
 DOMAIN,play.acemby.org
