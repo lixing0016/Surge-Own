@@ -2,7 +2,7 @@
 #!desc=获取成功后禁用
 
 [MITM]
-hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, wq.jd.com, m.jingxi.com, api.weibo.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, mkt.21cn.com, mall.meituan.com, *.meituan.*, *.bilibili.com, auth.aliyundrive.com, api.icitybox.cn, sytgate.jslife.com.cn, rewards.bing.com, *.amap.com, api.tuhu.cn, sweixin.hisense.com,
+hostname = %APPEND% *.video.qq.com, v.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, wq.jd.com, m.jingxi.com, api.weibo.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, mkt.21cn.com, mall.meituan.com, *.meituan.*, *.bilibili.com, auth.aliyundrive.com, api.icitybox.cn, sytgate.jslife.com.cn, rewards.bing.com, *.amap.com, api.tuhu.cn, sweixin.hisense.com, apis.folidaymall.com,
 
 [Script]
 腾讯视频ck = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
@@ -34,3 +34,4 @@ Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.
 高德打车cookie = type=http-response, pattern=^https:\/\/m5(-zb)?\.amap\.com\/ws\/yuece\/(act|openapi)\/(activity\/current\/)?query, requires-body=1, script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js
 途虎获取cookie = type=http-request,pattern=https://api.tuhu.cn/User/GetInternalCenterInfo,script-path=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js,timeout=60,script-update-interval=0,requires-body=0
 海信数据 = type=http-response,pattern=^https:\/\/sweixin\.hisense\.com\/ecrp\/member\/initMember,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js
+获取托迈酷客Cookie = type=http-request,pattern=^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js
