@@ -4,15 +4,6 @@ DOMAIN,emby.flowercloud.yt
 # > 流媒体emby-MisakaF服务器
 DOMAIN,emby.misakaf.org
 
-# > 流媒体普拉斯影业服务器
-DOMAIN,emby.plusmedia.site
-DOMAIN,emby-sg.plusmedia.site
-DOMAIN,emby-cf.plusmedia.site
-DOMAIN,emby.xeton.dev
-DOMAIN,jellyfin.xeton.dev
-DOMAIN,movie.xeton.dev
-DOMAIN,servers.xeton.dev
-
 # > 流媒体Emby-404Found服务器
 DOMAIN,404.sb
 
@@ -35,20 +26,8 @@ DOMAIN,pub2.emby.wtf
 DOMAIN,pub3.emby.wtf
 DOMAIN,pub4.emby.wtf
 
-# > 流媒体Emby-Misty服务器
-DOMAIN,aaa.ax
-DOMAIN,hk.aaa.ax
-DOMAIN,plus.aaa.ax
-DOMAIN,misty.ltd
-DOMAIN,pro.misty.ltd
-
 # > 流媒体Nebula Emby公益服
 DOMAIN,direct.nebula-emby.com
-
-# > 流媒体Orange Emby公益服
-DOMAIN,embytv.cf
-DOMAIN,cf.embytv.cf
-DOMAIN,cdn.embytv.cf
 
 # > 流媒体NMEmby公益服
 DOMAIN,film.ohhhh.org
@@ -56,13 +35,8 @@ DOMAIN,film.ohhhh.org
 # > 纸片人小站EmbyPlus公益服
 DOMAIN,embyplus.org
 
-# > 剧狗Emby
-DOMAIN,ju.dog
-DOMAIN,1.mgl.gay
-DOMAIN,2.mgl.gay
-
 # > AcEmby
-DOMAIN,play.acemby.org
+DOMAIN,cdnac.zox.show
 DOMAIN,cflix.acemby.org
 DOMAIN,cdn.zox.show
 
@@ -82,19 +56,12 @@ DOMAIN,free.emby.eu.org
 # > 会员制Emby餐厅
 DOMAIN,emby.mius.uk
 
-# > CaptainZ Emby
-DOMAIN,emby.wiri.tk
-DOMAIN,cfemby.wiri.tk
-
 # > Dolphin Emby
 DOMAIN,public.emby.ws
 DOMAIN,cm.emby.ws
 
 # > 梓澪の妙妙屋
 DOMAIN,cf.zi0.icu
-
-# > Nyamedia Emby
-DOMAIN,emby.bangumi.ca
 
 # > Temby
 DOMAIN,temby.285286.xyz
