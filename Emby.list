@@ -53,8 +53,9 @@ DOMAIN,cf.shuipo.lol
 # > 星光
 DOMAIN,free.emby.eu.org
 
-# > 会员制Emby餐厅
+# > 牢大的野兽会员制Emby餐厅
 DOMAIN,emby.mius.uk
+DOMAIN,emby-us-v4.mius.uk
 
 # > Dolphin Emby
 DOMAIN,public.emby.ws
