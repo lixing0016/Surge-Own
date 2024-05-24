@@ -2,7 +2,7 @@
 #!desc=获取成功后禁用
 
 [MITM]
-hostname = %APPEND% *.video.qq.com, v.qq.com, *.y.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, wq.jd.com, m.jingxi.com, api.weibo.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, mkt.21cn.com, mall.meituan.com, *.meituan.*, *.bilibili.com, auth.aliyundrive.com, api.icitybox.cn, sytgate.jslife.com.cn, rewards.bing.com, *.amap.com, api.tuhu.cn, sweixin.hisense.com, apis.folidaymall.com, mxsa.mxbc.net, api.660pp.com, payapp.weixin.qq.com, www.wandawic.com,
+hostname = %APPEND% *.video.qq.com, v.qq.com, *.y.qq.com, mobwsa.ximalaya.com, api.m.jd.com, ms.jr.jd.com, me-api.jd.com, wq.jd.com, m.jingxi.com, api.weibo.cn, ios.baertt.com, as.xiaojukeji.com, common.diditaxi.com.cn, www.52pojie.cn, *.smzdm.com, c.tieba.baidu.com, zt.wps.cn, gameapi.hellobike.com, user-api-prd-mx.wandafilm.com, h5.ele.me, m.ctrp.com, ccsp-egmas.sf-express.com, activity-1.m.duiba.com.cn, nebula.kuaishou.com, music.163.com, cloud.umetrip.com, passport.iqiyi.com, api.wfdata.club, mkt.21cn.com, mall.meituan.com, *.meituan.*, *.bilibili.com, auth.aliyundrive.com, api.icitybox.cn, sytgate.jslife.com.cn, rewards.bing.com, *.amap.com, api.tuhu.cn, sweixin.hisense.com, apis.folidaymall.com, mxsa.mxbc.net, api.660pp.com, payapp.weixin.qq.com, www.wandawic.com, www.javbus.com,
 
 [Script]
 腾讯视频ck = type=http-request, pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
@@ -41,3 +41,4 @@ PP 停车# = type=http-request,pattern=^https:\/\/api\.660pp\.com\/rest\/[\d\.]+
 万达智慧商业² = type=http-response,pattern=^https?:\/\/www\.wandawic\.com\/api\/foreground\/loginregister\/queryUser,requires-body=1,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/wdzhsy/wdzhsy.js,script-update-interval=0
 QQ音乐CK = type=http-request,pattern=https://c6.y.qq.com/shop/fcgi-bin/fcg_get_order?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js
 QQ音乐CK2 = type=http-request,pattern=https://u6.y.qq.com/cgi-bin/musics.fcg?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js
+巴士论坛获取Cookie = type=http-request ^https?:\/\/www\.javbus\.com\/forum\/home.php\?mod=,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/javbus.js
