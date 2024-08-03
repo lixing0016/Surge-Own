@@ -54,8 +54,8 @@ DOMAIN,cf.shuipo.lol
 DOMAIN,free.emby.eu.org
 
 # > 牢大的野兽会员制Emby餐厅
-DOMAIN,emby.mius.uk
-DOMAIN,emby-us-v4.mius.uk
+DOMAIN,emby-mica-us-v1.mius.uk
+DOMAIN,emby-micax-ca-v2.mius.uk
 
 # > Dolphin Emby
 DOMAIN,public.emby.ws
