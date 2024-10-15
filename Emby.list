@@ -7,15 +7,6 @@ DOMAIN,emby.misakaf.org
 # > 流媒体Emby-404Found服务器
 DOMAIN,404.sb
 
-# > 流媒体Emby-垃圾影音
-DOMAIN,nl.xmsl.org
-DOMAIN,cfca.emby.ml
-DOMAIN,cfde.xmsl.org
-DOMAIN,1.loseremby.org
-DOMAIN,cfde.xmsl.org
-DOMAIN,line.xmsl.org
-DOMAIN,pm.xmsl.org
-
 # > 流媒体Emby-佛系影音
 DOMAIN,4545.cf
 DOMAIN,1.4545.cf
@@ -28,9 +19,6 @@ DOMAIN,pub4.emby.wtf
 
 # > 流媒体Nebula Emby公益服
 DOMAIN,direct.nebula-emby.com
-
-# > 流媒体NMEmby公益服
-DOMAIN,film.hovervan.org
 
 # > 纸片人小站EmbyPlus公益服
 DOMAIN,embyplus.org
@@ -46,20 +34,13 @@ DOMAIN,emby.agon.cf
 # > TreeDiagram
 DOMAIN,789.123456.al
 
-# > 水泊梁山
-DOMAIN,emby.shuipo.lol
-DOMAIN,cf.shuipo.lol
-
 # > 星光
 DOMAIN,free.emby.eu.org
 
 # > 牢大的野兽会员制Emby餐厅
 DOMAIN,emby-mica-us-v1.mius.uk
 DOMAIN,emby-micax-ca-v2.mius.uk
-
-# > Dolphin Emby
-DOMAIN,public.emby.ws
-DOMAIN,cm.emby.ws
+DOMAIN,emby-mica-hk-v4.mius.uk/
 
 # > 梓澪の妙妙屋
 DOMAIN,cf.zi0.icu
@@ -72,9 +53,6 @@ DOMAIN,temby856.285286.xyz
 DOMAIN,emby.pilipiliultra.top
 DOMAIN,emby.pilipiliultra.com
 DOMAIN,pilipili.club
-
-# > Error is Best
-DOMAIN,red.prisms.cc
 
 # > Misty
 DOMAIN,misty.cx
