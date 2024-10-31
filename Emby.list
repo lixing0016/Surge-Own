@@ -78,3 +78,8 @@ DOMAIN,chunmusic.imetyou.top
 DOMAIN,hka-emby.aliz.work
 DOMAIN,hka-emby1.aliz.work
 DOMAIN,hka-emby2.aliz.work
+
+# 非越媒体库
+DOMAIN,z.sfcj.org
+DOMAIN,cf.sfcj.org
+DOMAIN,v6.sfcj.org
