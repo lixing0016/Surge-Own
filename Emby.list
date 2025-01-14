@@ -94,9 +94,7 @@ DOMAIN,tanhuatv.site
 DOMAIN,poloemby.xyz
 
 # > 起点站公益服
-DOMAIN,192.99.35.111
-DOMAIN,tdck.fun
-DOMAIN,emby-qdz-jp.pppp.us.kg
-DOMAIN,emby-qdz-sg.pppp.us.kg
-DOMAIN,emby-qdz-hk.pppp.us.kg
-DOMAIN,emby-qdz-us-sj.pppp.us.kg
+DOMAIN,qdz-hk-0.vfing.de
+DOMAIN,qdz-hk-1.vfing.de
+DOMAIN,qdz-sg.vfing.de
+DOMAIN,qdzcdn.vfing.de
