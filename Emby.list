@@ -1,16 +1,3 @@
-# > 流媒体emby-flowercloud服务器
-DOMAIN,emby.flowercloud.yt
-
-# > 流媒体emby-MisakaF服务器
-DOMAIN,emby.misakaf.org
-
-# > 流媒体Emby-404Found服务器
-DOMAIN,404.sb
-
-# > 流媒体Emby-佛系影音
-DOMAIN,4545.cf
-DOMAIN,1.4545.cf
-
 # > 流媒体Emby-终点站服务器
 DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
@@ -22,11 +9,6 @@ DOMAIN,direct.nebula-emby.com
 
 # > 纸片人小站EmbyPlus公益服
 DOMAIN,embyplus.org
-
-# > AcEmby
-DOMAIN,cdnac.zox.show
-DOMAIN,cflix.acemby.org
-DOMAIN,cdn.zox.show
 
 # > 私人影院
 DOMAIN,emby.agon.cf
@@ -45,10 +27,6 @@ DOMAIN,sadsafsfsafsadas.mius.uk
 
 # > 梓澪の妙妙屋
 DOMAIN,cf.zi0.icu
-
-# > Temby
-DOMAIN,temby.285286.xyz
-DOMAIN,temby856.285286.xyz
 
 # > PiliPili
 DOMAIN,emby.pilipiliultra.top
@@ -85,9 +63,6 @@ DOMAIN,z.sfcj.org
 DOMAIN,cf.sfcj.org
 DOMAIN,v6.sfcj.org
 
-# > 天南小筑
-DOMAIN,nanflix.net
-
 # > 探花TV
 DOMAIN,tanhuatv.site
 
@@ -109,3 +84,5 @@ DOMAIN,emby.jingzhe.pro
 # > 二次元Emby
 DOMAIN,media.nijigem.by
 
+# > Nya Media
+DOMAIN,emby.bangumi.ca
