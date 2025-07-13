@@ -62,6 +62,7 @@ DOMAIN,music.xxxh.de
 DOMAIN,115.231.235.49
 DOMAIN,diaojinping.de
 DOMAIN,yinhai.aiinyue.com
+DOMAIN,music.wenjian.de
 
 # > hkaemby
 DOMAIN,hka-emby.aliz.work
@@ -124,3 +125,9 @@ DOMAIN,emby.heisi.org
 
 # > Emby存档服
 DOMAIN,emby.zn.al
+
+# > 叶子Emby
+DOMAIN,gm.yezi.my
+
+# > KFC
+DOMAIN,kfc.v50.su
