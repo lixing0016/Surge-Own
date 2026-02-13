@@ -42,4 +42,4 @@ PP 停车# = type=http-request,pattern=^https:\/\/api\.660pp\.com\/rest\/[\d\.]+
 𝐙𝐈𝐏𝐏𝐎会员中心获取Authorization = type=http-request, pattern=^https?:\/\/wx-center\.zippo\.com\.cn\/api\/users\/profile,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/zippo.js
 去重二剪Cookie = type=http-request,pattern=^https:\/\/apis\.ddfans\.com\/bian\/public\/index\.php\/water,requires-body=1,script-path=https://raw.githubusercontent.com/Former-Years/Surge/refs/heads/main/Script/qcej.js
 鸿星尔克Cookie = type=http-request,pattern=^https:\/\/hope\.demogic\.com\/gic-wx-app\/get-member-asset\.json,script-path=https://raw.githubusercontent.com/Former-Years/Surge/refs/heads/main/Script/erke.js
-同程旅行 = type=http-request, pattern=^https:\/\/app\.17u\.cn\/welfarecenter\/index\/signIndex script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tongcheng-trip/tongcheng-trip.js
+同程旅行 = type=http-request, pattern=^https:\/\/app\.17u\.cn\/welfarecenter\/index\/signIndex, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tongcheng-trip/tongcheng-trip.js
